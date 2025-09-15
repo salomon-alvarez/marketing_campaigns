@@ -42,6 +42,28 @@ To create a **data-driven segmentation and targeting framework** that improves m
 
 ## Results
 
+### Customers Profiles
+
+## Average Age of Respondents by Campaign
+
+The table below shows the average customer age for each campaign among those who **accepted** the offer, alongside the overall customer average for comparison:
+
+| Group               | Average Age (years) |
+|---------------------|----------------------|
+| Overall Customers   | 51.1 |
+| Campaign 1          | 51.6 |
+| Campaign 2          | 51.9 |
+| Campaign 3          | 48.6 |
+| Campaign 4          | 54.0 |
+| Campaign 5          | 50.3 |
+
+**Insights:**  
+- The overall customer base averages about **51.1 years old**.  
+- Campaign 3 attracted slightly younger respondents on average.  
+- Campaign 4 was most effective among older customers (around 54).  
+- Campaigns 1, 2, and 5 landed in the early 50s range, showing consistency across those groups.  
+
+
 ##  General Purchase Behavior
 
 ![Feature Importances Campaign 1](images/channels_prod_type_bars.png)
