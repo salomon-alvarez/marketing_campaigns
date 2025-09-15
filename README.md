@@ -46,31 +46,31 @@ Across the five campaigns, logistic regression confirms several of the same driv
 The strongest driver of response was household income, followed by spending on meat and wines. Customers with higher incomes and consistent grocery spending showed greater acceptance. Catalog purchases and deal sensitivity also played a role, indicating the campaign appealed to both loyal premium customers and promotion-driven buyers. Engagement metrics such as time since becoming a customer and recency of purchases reinforced this effect.  
 **Insight:** Campaign 1 was most effective with long-term, high-income customers who regularly shop premium categories but also respond to deals.  
 
-![Feature Importances Campaign 1](images/campaign1_chart.png)
+![Feature Importances Campaign 1](images/Feature_Importances_for_Campaign1_Random_Forest_vs_XGBoost.png)
 
 #### Campaign 2
 Response was dominated by wine spending, with household income and catalog purchases as additional drivers. Customers with higher wine expenditure and stronger engagement in premium categories (e.g., gold, meat) were far more likely to accept the offer.  
 **Insight:** Campaign 2 resonated most with premium and luxury-oriented customers, particularly heavy wine buyers. Positioning this type of campaign around exclusive wine or high-end offers will maximize results.  
 
-![Feature Importances Campaign 1](images/campaign1_chart.png)
+![Feature Importances Campaign 1](images/Feature_Importances_for_Campaign2_Random_Forest_vs_XGBoost.png)
 
 #### Campaign 3
 Key factors included store and catalog purchases, luxury spending (gold and wines), and household income. Meat and fish spend also mattered, along with customer age, which suggested stronger response among middle-aged customers with spending capacity.  
 **Insight:** Campaign 3 succeeded with traditional store/catalog shoppers who purchase luxury consumables. Future campaigns should highlight exclusive in-store or catalog bundles, targeting these high-value segments.  
 
-![Feature Importances Campaign 1](images/campaign1_chart.png)
+![Feature Importances Campaign 1](images/Feature_Importances_for_Campaign3_Random_Forest_vs_XGBoost.png)
 
 #### Campaign 4
 The top driver was again wine spending, supported by household income. Other important factors included spending on meat and fruits, store purchases, and recency indicators such as web visits and customer tenure. Age also influenced results, suggesting demographic variation in responsiveness.  
 **Insight:** Campaign 4 reached affluent wine and food category buyers with recent engagement, making it well suited for omnichannel strategies that combine in-store and online follow-ups.  
 
-![Feature Importances Campaign 1](images/campaign1_chart.png)
+![Feature Importances Campaign 1](images/Feature_Importances_for_Campaign4_Random_Forest_vs_XGBoost.png)
 
 #### Campaign 5
 Household income was by far the strongest driver, with wine spending and catalog engagement also highly predictive. Additional signals included meat and fish spending, age, and teens in the household, showing that family composition influenced responsiveness. Deal sensitivity was present but secondary.  
 **Insight:** Campaign 5 was most effective among affluent, wine-buying households with families, particularly those engaged through the catalog channel. Scaling should focus on premium catalog offers tailored to high-income family households.  
 
-![Feature Importances Campaign 1](images/campaign1_chart.png)
+![Feature Importances Campaign 1](images/Feature_Importances_for_Campaign5_Random_Forest_vs_XGBoost.png)
 
 ### Overall Patterns Across Campaigns
 - **Household income and spending on wines/meat** consistently defined responsiveness, highlighting the importance of affluent, premium buyers.  
