@@ -217,6 +217,86 @@ The raw dataset contains **2,205 customer records** with **39 features** coverin
 **Summary:**  
 This dataset provides a comprehensive view of customer demographics, engagement, and purchase behavior across multiple channels, as well as their responsiveness to marketing campaigns. It is well-suited for customer segmentation, campaign targeting, and churn/complaint prediction.
 
+This project followed a structured analytics workflow, moving from raw data exploration to advanced modeling and business interpretation. The technical implementation is fully documented in the Jupyter Notebooks (see repository), while the summary below outlines the key steps.
+
+---
+
+### 1. Data Understanding & Cleaning
+- Explored the raw dataset of **2,205 customer records and 39 features**, covering demographics, purchase behavior, marketing campaigns, and complaints.  
+- Identified and addressed inconsistencies:
+  - Removed constant columns (`Z_CostContact`, `Z_Revenue`) with no analytical value.  
+  - Corrected `Spend_Total` to include gold product spending.  
+  - Renamed columns for clarity and consistency (e.g., `Kidhome → Kids_Count`, `Teenhome → Teens_Count`).  
+- Checked distributions and detected skewness across spending variables.  
+- Handled outliers using boxplot inspections and domain-driven thresholds.
+
+---
+
+### 2. Exploratory Data Analysis (EDA)
+- Visualized distributions of income, age, and spending categories.  
+- Correlation and heatmap analysis revealed strong relationships between spending categories.  
+- Conducted bivariate analysis (e.g., income vs. wine, frequency vs. monetary value).  
+- Derived early insights into high-income, wine-buying households as key drivers of engagement.  
+
+---
+
+### 3. Feature Engineering
+- **Campaign Metrics:**  
+  - Calculated individual campaign conversion rates.  
+  - Built customer-level re-engagement metrics (30, 60, 90 days).  
+
+- **RFM Segmentation:**  
+  - Applied Recency, Frequency, Monetary scoring using quintiles (1–5).  
+  - Created six actionable customer segments: Champions, Loyal, Potential Loyalists, At Risk, Cold, and Lost.  
+
+- **Additional Features:**  
+  - Calculated Average Order Value (AOV).  
+  - Aggregated total purchases and channel usage indicators.  
+
+---
+
+### 4. Multicollinearity & Scaling
+- Conducted **Variance Inflation Factor (VIF) analysis** to drop redundant features and reduce multicollinearity.  
+- Applied **Yeo-Johnson transformations** to correct skewness in heavily skewed spending variables.  
+- Implemented **scaling pipeline**:
+  - Standardized continuous variables.  
+  - Passed through binary variables without transformation.  
+- Produced a final **scaled feature dataset** for modeling.
+
+---
+
+### 5. Modeling
+- **Random Forest & XGBoost:**  
+  - Feature importance analysis across all five campaigns.  
+  - Confirmed household income, wine spending, catalog engagement, and web visits as consistent predictors of acceptance.  
+
+- **Logistic Regression:**  
+  - Validated tree-based findings while offering interpretability.  
+  - Showed positive predictors (income, wine, catalog/web activity) and negative predictors (store/grocery spending, larger households).  
+  - Evaluated with ROC-AUC and Precision-Recall AUC.  
+
+- **Customer Complaints Model:**  
+  - Built a Random Forest to predict complaint likelihood.  
+  - Found tenure, income, age, and luxury spending as top drivers of complaints.  
+
+---
+
+### 6. Visualization & Business Storytelling
+- Built Tableau dashboards for executive-ready insights:  
+  - Campaign conversion and re-engagement.  
+  - Purchase channel and product-type distributions.  
+  - Segmentation by marital status, education, and household composition.  
+- Produced complementary plots in Jupyter (matplotlib/seaborn) for profiling and model interpretability.
+
+---
+
+### 7. Documentation
+- Full workflow is presented in **two Jupyter Notebooks**:  
+  1. **EDA Notebook:** Data cleaning, exploration, outlier detection, and feature corrections.  
+  2. **Modeling Notebook:** Feature engineering, scaling, modeling (Random Forest, XGBoost, Logistic Regression), and evaluation.  
+
+Links to notebooks are included in the repository for technical review.
+
 
 ## Key Insights & Business Implications
 
