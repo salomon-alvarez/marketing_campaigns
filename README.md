@@ -1,4 +1,46 @@
-# marketing_campaigns
+# Customer Segmentation & Campaign Response Analysis
+
+## Table of Contents
+1. [Executive Summary](#executive-summary)  
+2. [Objectives & Business Problem](#objectives--business-problem)  
+3. [Results](#results)  
+4. [Methodology](#methodology)  
+5. [Key Insights & Business Implications](#key-insights--business-implications)  
+6. [Limitations & Next Steps](#limitations--next-steps)  
+7. [Appendix / Technical Details](#appendix--technical-details)  
+
+---
+
+## Executive Summary
+
+This project analyzes a retail marketing dataset to improve campaign targeting and customer segmentation.  
+Using exploratory data analysis (EDA), feature engineering, and multiple machine learning models (Random Forest, XGBoost, Logistic Regression), we identified the key drivers of campaign acceptance and customer complaints, while building actionable segmentation strategies such as **RFM scoring**.
+
+**Key Achievements:**
+- Built segmentation models that highlight **high-income and wine-buying households** as the most responsive to marketing campaigns.  
+- Designed a **6-category RFM framework** (Champions, Loyal Customers, Potential Loyalists, At Risk, Cold, Lost) to simplify customer retention and re-engagement strategies.  
+- Discovered that **catalog and web engagement** consistently predict campaign acceptance across multiple campaigns.  
+- Identified that **affluent, long-tenure customers** are both the most responsive and the most likely to complain, emphasizing the need for proactive relationship management.  
+- Developed visual dashboards in Tableau to present findings in an executive-friendly format.  
+
+---
+
+## Objectives & Business Problem
+
+The dataset represents thousands of customer records with demographics, purchase behavior, and responses to marketing campaigns.  
+The company’s core challenge is **increasing campaign ROI** by better identifying which customers to target and how to engage them.  
+
+**Business Questions:**
+- Which customer attributes most influence campaign acceptance?  
+- How can we segment customers into actionable groups to improve targeting?  
+- What factors drive customer complaints, and how can they be reduced?  
+- How do online vs. offline channels (web, catalog, store) affect responsiveness?  
+
+**Objective:**  
+To create a **data-driven segmentation and targeting framework** that improves marketing efficiency, boosts campaign conversion, and reduces customer dissatisfaction.
+
+
+
 
 ## Logistic Regression Results Across Campaigns
 
