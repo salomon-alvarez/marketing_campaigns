@@ -40,7 +40,7 @@ The company’s core challenge is **increasing campaign ROI** by better identify
 To create a **data-driven segmentation and targeting framework** that improves marketing efficiency, boosts campaign conversion, and reduces customer dissatisfaction.
 
 
-
+## Results
 
 ## Logistic Regression Results Across Campaigns
 
@@ -142,3 +142,43 @@ Complaints are concentrated among **affluent, long-term, and high-spending custo
 - Strengthen support and quality control for premium buyers and long-tenure customers.  
 - Proactively monitor satisfaction among high-income and high-spend households.  
 - Tailor complaint-resolution strategies to protect relationships with these critical segments.  
+
+
+
+## Metodology
+
+### Dataset Description
+
+The raw dataset contains **2,205 customer records** with **39 features** covering demographics, purchase behavior, marketing campaign responses, and complaints.  
+
+**Key feature groups:**
+- **Demographics:**  
+  - `Income`: Household yearly income.  
+  - `Kidhome`, `Teenhome`: Number of children and teenagers in the household.  
+  - `Age`: Customer age.  
+  - `Customer_Days`: Number of days since becoming a customer.  
+  - Marital status (one-hot encoded): `marital_Divorced`, `marital_Married`, `marital_Single`, `marital_Together`, `marital_Widow`.  
+  - Education level (one-hot encoded): `education_2n Cycle`, `education_Basic`, `education_Graduation`, `education_Master`, `education_PhD`.  
+
+- **Purchasing behavior (monetary values are yearly spending in each category):**  
+  - `MntWines`, `MntFruits`, `MntMeatProducts`, `MntFishProducts`, `MntSweetProducts`, `MntGoldProds`.  
+  - Aggregates: `MntTotal` (total spending), `MntRegularProds` (all products except gold).  
+
+- **Purchasing channels:**  
+  - `NumDealsPurchases`: Number of purchases with discounts.  
+  - `NumWebPurchases`, `NumCatalogPurchases`, `NumStorePurchases`: Purchases by channel.  
+  - `NumWebVisitsMonth`: Number of website visits per month.  
+
+- **Marketing campaign responses:**  
+  - `AcceptedCmp1`, `AcceptedCmp2`, `AcceptedCmp3`, `AcceptedCmp4`, `AcceptedCmp5`: Binary indicators of acceptance for five campaigns.  
+  - `Response`: General campaign response flag.  
+  - `AcceptedCmpOverall`: Total number of campaigns accepted.  
+
+- **Customer feedback:**  
+  - `Complain`: Indicates whether the customer filed a complaint.  
+
+- **Other technical fields:**  
+  - `Z_CostContact`, `Z_Revenue`: Constant columns (same value for all customers, removed during cleaning).  
+
+**Summary:**  
+This dataset provides a comprehensive view of customer demographics, engagement, and purchase behavior across multiple channels, as well as their responsiveness to marketing campaigns. It is well-suited for customer segmentation, campaign targeting, and churn/complaint prediction.
