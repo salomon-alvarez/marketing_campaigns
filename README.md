@@ -72,6 +72,12 @@ The table below shows the average customer age for each campaign among those who
 
 ![Feature Importances Campaign 1](images/spend_by_category.png)
 
+![Feature Importances Campaign 1](images/freq_vs_monetary.png)
+
+![Feature Importances Campaign 1](images/income_vs_wine.png)
+
+
+
 ## Campaign Conversion Rates
 
 An analysis of the conversion rates across the five campaigns revealed clear differences in customer responsiveness:
