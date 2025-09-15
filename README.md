@@ -42,6 +42,27 @@ To create a **data-driven segmentation and targeting framework** that improves m
 
 ## Results
 
+## Campaign Conversion Rates
+
+An analysis of the conversion rates across the five campaigns revealed clear differences in customer responsiveness:
+
+| Campaign   | Conversion Rate (%) |
+|------------|----------------------|
+| Campaign 4 | 7.45                 |
+| Campaign 3 | 7.41                 |
+| Campaign 5 | 7.32                 |
+| Campaign 1 | 6.45                 |
+| Campaign 2 | 1.36                 |
+
+### Key Insights
+- **Campaign 4** achieved the highest conversion rate (7.45%), closely followed by Campaigns 3 and 5.  
+- **Campaign 1** performed moderately well at 6.45%.  
+- **Campaign 2** showed the weakest performance (1.36%), indicating a significant gap compared to the others.  
+
+### Interpretation
+Campaigns 3, 4, and 5 were the most effective at engaging customers, suggesting that their design and targeting aligned better with customer interests. Campaign 2, however, may require a complete redesign or a shift in audience targeting to improve outcomes.
+
+
 ## Logistic Regression Results Across Campaigns
 
 ### Business Insights
