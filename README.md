@@ -62,6 +62,26 @@ An analysis of the conversion rates across the five campaigns revealed clear dif
 ### Interpretation
 Campaigns 3, 4, and 5 were the most effective at engaging customers, suggesting that their design and targeting aligned better with customer interests. Campaign 2, however, may require a complete redesign or a shift in audience targeting to improve outcomes.
 
+## Customer Re-Engagement
+
+Re-engagement was measured at 30, 60, and 90 days after campaigns, capturing the percentage of customers who made a purchase within those windows.
+
+| Time Window | Re-Engagement Rate (%) |
+|-------------|-------------------------|
+| 30 days     | 32.3                   |
+| 60 days     | 61.6                   |
+| 90 days     | 91.2                   |
+
+### Key Insights
+- About **one-third of customers (32.3%)** re-engaged within the first 30 days, indicating a strong short-term impact from campaigns.  
+- Engagement continued to grow steadily, with **over 60% returning by 60 days**.  
+- By **90 days, more than 9 in 10 customers (91.2%)** had re-engaged, suggesting campaigns had a long-lasting effect in maintaining customer relationships.  
+
+### Interpretation
+These results highlight that campaigns not only drive immediate responses but also sustain customer activity over time. The strong 90-day retention suggests that targeted follow-ups and loyalty programs could further maximize lifetime value.
+
+
+
 
 ## Logistic Regression Results Across Campaigns
 
