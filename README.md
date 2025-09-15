@@ -12,7 +12,6 @@
 4. [Methodology](#methodology)  
 5. [Key Insights & Business Implications](#key-insights--business-implications)  
 6. [Limitations & Next Steps](#limitations--next-steps)  
-7. [Appendix / Technical Details](#appendix--technical-details)  
 
 ---
 
