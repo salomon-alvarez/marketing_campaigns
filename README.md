@@ -61,12 +61,16 @@ The table below shows the average customer age for each campaign among those who
 - The overall customer base averages about **51.1 years old**.  
 - Campaign 3 attracted slightly younger respondents on average.  
 - Campaign 4 was most effective among older customers (around 54).  
-- Campaigns 1, 2, and 5 landed in the early 50s range, showing consistency across those groups.  
+- Campaigns 1, 2, and 5 landed in the early 50s range, showing consistency across those groups.
+
+![Feature Importances Campaign 1](images/marital_status.png)
 
 
 ##  General Purchase Behavior
 
 ![Feature Importances Campaign 1](images/channels_prod_type_bars.png)
+
+![Feature Importances Campaign 1](images/spend_by_category.png)
 
 ## Campaign Conversion Rates
 
