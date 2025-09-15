@@ -42,6 +42,10 @@ To create a **data-driven segmentation and targeting framework** that improves m
 
 ## Results
 
+##  General Purchase Behavior
+
+![Feature Importances Campaign 1](images/channels_prod_type_bars.png)
+
 ## Campaign Conversion Rates
 
 An analysis of the conversion rates across the five campaigns revealed clear differences in customer responsiveness:
