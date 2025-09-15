@@ -76,4 +76,27 @@ Household income was by far the strongest driver, with wine spending and catalog
 - **Household income and spending on wines/meat** consistently defined responsiveness, highlighting the importance of affluent, premium buyers.  
 - **Catalog channel engagement** was a recurring driver, showing that catalog customers are particularly responsive.  
 - **Customer tenure and recency** mattered across multiple campaigns, confirming that engaged, long-standing customers are more likely to accept.  
-- **Demographics such as age and household composition** occasionally emerged, suggesting targeted family-oriented opportunities.  
+- **Demographics such as age and household composition** occasionally emerged, suggesting targeted family-oriented opportunities.
+- 
+
+## Predicting Customer Complaints (Random Forest)
+
+To understand which factors are most associated with customers filing complaints, we trained a Random Forest model using **Had_Complaint** as the target variable.  
+
+### Top Feature Importances
+![Top 15 Feature Importances — Predicting Complaints](images/complaints_feature_importance.png)
+
+### Key Insights
+- **Tenure matters**: The strongest predictor of complaints was **Days Since Becoming a Customer**. Long-standing customers are more likely to escalate issues, perhaps reflecting higher expectations or accumulated frustrations over time.  
+- **Demographics and profile**: **Customer Age** and **Household Income** were also highly influential. Older, higher-income customers tend to complain more, aligning with the profile of engaged premium buyers.  
+- **Luxury spending as a signal**: Spending on **gold products** and overall high spend (Total, Wines, Meat) showed strong importance, suggesting that customers investing heavily in premium categories are more demanding.  
+- **Engagement and recency**: **Days Since Last Purchase** and **Average Order Value (AOV)** also contributed, pointing to links between recent shopping behavior and complaint likelihood.  
+- **Omnichannel patterns**: While not as dominant, **Total Purchases** and **Web Visits per Month** still ranked in the top 15, reinforcing that broad engagement is tied to complaint behavior.  
+
+### Business Interpretation
+Complaints are concentrated among **affluent, long-term, and high-spending customers**. This suggests that dissatisfaction is not random but often comes from the company’s most valuable clients — the ones with both the highest expectations and the greatest impact on brand reputation.  
+
+**Actionable Implications:**
+- Strengthen support and quality control for premium buyers and long-tenure customers.  
+- Proactively monitor satisfaction among high-income and high-spend households.  
+- Tailor complaint-resolution strategies to protect relationships with these critical segments.  
