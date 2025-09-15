@@ -76,6 +76,8 @@ The table below shows the average customer age for each campaign among those who
 
 ![Feature Importances Campaign 1](images/income_vs_wine.png)
 
+![Feature Importances Campaign 1](images/education_level.png)
+
 
 
 ## Campaign Conversion Rates
