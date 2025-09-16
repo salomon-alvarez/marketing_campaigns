@@ -173,6 +173,21 @@ Overall, **tree-based models aligned with logistic regression** in highlighting 
 
 ---
 
+#### Campaign Acceptance by RFM Segment
+
+The chart below compares the **average campaign acceptance rate across RFM segments**:
+
+- **Champions** are the most responsive (~12.5%), as expected given their high recency, frequency, and spending.  
+- **At Risk customers** show a surprisingly strong acceptance rate (~9%), outperforming even **Loyal Customers** (~8%).  
+- **Loyal Customers** purchase frequently but do not rely as heavily on campaigns, which may explain their lower responsiveness.  
+- **Potential Loyalists, Cold, and Lost customers** show very limited responsiveness (1–3%), indicating diminishing returns from campaign targeting.  
+
+**Key Insight:**  
+At Risk customers are **highly reactive to campaigns**, almost as much as Champions. This suggests a major opportunity for **reactivation strategies** — targeted offers or personalized outreach could prevent churn and restore them to higher-value segments.  
+In contrast, **Loyal Customers may not require heavy campaign targeting**, as they continue engaging without incentives.  
+
+![acceptance_rate_by_segment](images/arcs.png)  
+
 ### Predicting Customer Complaints  
 
 To understand which factors are most associated with customers filing complaints, we trained a Random Forest model using **Had_Complaint** as the target variable.  
