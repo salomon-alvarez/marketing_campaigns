@@ -86,7 +86,6 @@ The table below shows the average customer age for each campaign among those who
 
 ![Purchases by Channel and Product Type](images/channels_prod_type_bars.png)  
 ![Spending by Product Category](images/spend_by_category.png)  
-![Frequency vs. Monetary Value](images/freq_vs_monetary.png)  
 ![Income vs. Wine Spending](images/income_vs_wine.png)  
 
 ---
