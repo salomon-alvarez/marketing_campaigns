@@ -157,12 +157,12 @@ Reaffirmed the same trends:
 
 ### Campaign Acceptance by RFM Segment  
 
-| Segment              | Acceptance Rate (%) |
-|----------------------|----------------------|
-| Champions            | ~12.5                |
-| At Risk              | ~9.0                 |
-| Loyal Customers      | ~8.0                 |
-| Others (Cold/Lost)   | 1–3                  |
+|       Segment        | Acceptance Rate (%) |
+|:--------------------:|:-------------------:|
+|      Champions       |        ~12.5        |
+|       At Risk        |        ~9.0         |
+|   Loyal Customers    |        ~8.0         |
+| Others (Cold/Lost)   |        1–3          |
 
 ![campaig_acceptance_rate_vs_cust_segment](images/campaig_acceptance_rate_vs_cust_segment.png)
 
