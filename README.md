@@ -57,7 +57,7 @@ This section combines the analytical results with their business implications, p
 
 ### Customer Profiles  
 
-#### Average Age of Respondents by Campaign
+#### Average Age of Respondents by Campaign  
 The table below shows the average customer age for each campaign among those who **accepted** the offer, alongside the overall customer average for comparison:
 
 | Group               | Average Age (years) |
@@ -70,10 +70,10 @@ The table below shows the average customer age for each campaign among those who
 | Campaign 5          | 50.3 |
 
 **Insights:**  
-- The overall customer base averages about **51.1 years old**.  
-- Campaign 3 attracted slightly younger respondents on average.  
-- Campaign 4 was most effective among older customers (around 54).  
-- Campaigns 1, 2, and 5 landed in the early 50s range, showing consistency across those groups.  
+- The customer base averages around **51.1 years old**.  
+- Campaign 3 drew in slightly younger clients.  
+- Campaign 4 appealed more to older customers (~54 years).  
+- Campaigns 1, 2, and 5 showed consistent engagement across the low-50s range.
 
 #### Demographic Distribution  
 ![Marital Status Distribution](images/marital_status.png)  
@@ -93,8 +93,6 @@ The table below shows the average customer age for each campaign among those who
 ### Campaign Performance  
 
 #### Conversion Rates  
-An analysis of the conversion rates across the five campaigns revealed clear differences in customer responsiveness:
-
 | Campaign   | Conversion Rate (%) |
 |------------|----------------------|
 | Campaign 4 | 7.45                 |
@@ -104,60 +102,41 @@ An analysis of the conversion rates across the five campaigns revealed clear dif
 | Campaign 2 | 1.36                 |
 
 **Key Insights:**  
-- **Campaign 4** achieved the highest conversion rate (7.45%), closely followed by Campaigns 3 and 5.  
-- **Campaign 1** performed moderately well at 6.45%.  
-- **Campaign 2** showed the weakest performance (1.36%), indicating a significant gap compared to the others.  
+- Campaigns 4, 3, and 5 performed best.  
+- Campaign 1 was moderate.  
+- Campaign 2 underperformed significantly.
 
-**Interpretation & Implications:**  
-- Campaigns 3, 4, and 5 were the most effective at engaging customers, suggesting that their design and targeting aligned better with customer interests.  
-- Campaign 2, however, may require a complete redesign (offer, messaging, or targeting) to justify continued spending.  
-- Future investments should replicate the structure and targeting of Campaigns 3–4–5 while reassessing Campaign 2’s strategy.  
+**Implications:**  
+- Replicate strategies from Campaigns 3–5.  
+- Reassess Campaign 2 completely (offer, message, targeting).
 
 #### Re-Engagement  
-Re-engagement was measured at 30, 60, and 90 days after campaigns, capturing the percentage of customers who made a purchase within those windows.
-
 | Time Window | Re-Engagement Rate (%) |
 |-------------|-------------------------|
-| 30 days     | 32.3                   |
-| 60 days     | 61.6                   |
-| 90 days     | 91.2                   |
+| 30 days     | 32.3                    |
+| 60 days     | 61.6                    |
+| 90 days     | 91.2                    |
 
-**Key Insights:**  
-- About **one-third of customers (32.3%)** re-engaged within the first 30 days, indicating a strong short-term impact from campaigns.  
-- Engagement continued to grow steadily, with **over 60% returning by 60 days**.  
-- By **90 days, more than 9 in 10 customers (91.2%)** had re-engaged, suggesting campaigns had a long-lasting effect in maintaining customer relationships.  
+**Insights:**  
+- One-third of users returned within 30 days.  
+- Over 90% re-engaged within 90 days.
 
-**Interpretation & Implications:**  
-- Campaigns not only drive immediate responses but also sustain customer activity over time.  
-- The strong 90-day retention suggests that targeted follow-ups and loyalty programs could further maximize lifetime value.  
+**Implications:**  
+- Campaigns drive both short-term and long-term customer retention.
 
 ---
 
 ### Modeling Campaign Responses  
 
-#### Logistic Regression Results Across Campaigns  
-
-Logistic regression confirms several of the same drivers identified by tree-based models, while adding complementary perspective on how customer attributes shift the likelihood of campaign acceptance.  
-
-- **Campaign 1**: Income and wine spending lead; catalog and web activity help; store/fruit spending hurts.  
-- **Campaign 2**: Income, wine, and catalog dominate; fish, meat, and web purchases predict lower responsiveness.  
-- **Campaign 3**: Catalog, gold, and web spending lead; household income plays a weaker/negative role; catalog and luxury remain key.  
-- **Campaign 4**: Wine and income again lead; web and catalog boost; families and grocery focus hurt.  
-- **Campaign 5**: Income and wine strongest; gold and sweets add; discounts and family-oriented buyers are less responsive.  
-
-**Key Takeaways Across Campaigns**  
-- **Consistent predictors**: Household income and wine spending are universal drivers.  
-- **Engagement signals**: Catalog and web activity repeatedly boost campaign response.  
-- **Less responsive segments**: Larger households and discount/grocery-driven buyers show weaker engagement.  
+#### Logistic Regression Highlights  
+- **Income** and **wine spending** are the strongest predictors across all campaigns.  
+- **Catalog and web activity** boost response.  
+- **Store, grocery, and discount-oriented behavior** reduce response.
 
 #### Tree-Based Models (Random Forest & XGBoost)  
-
-- Campaigns 1–2: Strong premium signals (income, wine, catalog, gold).  
-- Campaign 3: Store + catalog shoppers with luxury preferences.  
-- Campaign 4: Wine + affluent food buyers, with recent digital engagement.  
-- Campaign 5: High-income wine-buying households with families.  
-
-Overall, **tree-based models aligned with logistic regression** in highlighting income, wine, and catalog/web engagement as the top levers for campaign success.  
+Reaffirmed the same trends:
+- Income, wine, catalog/web use = high response  
+- Grocery, large households = low response  
 
 ![Feature Importances Campaign 1](images/Feature_Importances_for_Campaign1_Random_Forest_vs_XGBoost.png)  
 ![Feature Importances Campaign 2](images/Feature_Importances_for_Campaign2_Random_Forest_vs_XGBoost.png)  
@@ -166,53 +145,70 @@ Overall, **tree-based models aligned with logistic regression** in highlighting 
 ![Feature Importances Campaign 5](images/Feature_Importances_for_Campaign5_Random_Forest_vs_XGBoost.png)  
 
 **Business Implications:**  
-- Target **affluent, premium-oriented, digitally engaged customers**.  
-- Anchor campaigns around **wine and premium products** while leveraging **catalog and digital channels**.  
-- Reduce investment in store-heavy, grocery, and discount-driven segments, where ROI is structurally weaker.  
+- Focus campaigns on **affluent, digitally engaged customers**.  
+- Leverage catalog and wine as both **product and engagement drivers**.  
+- Limit budget on store/grocery-heavy segments with weak ROI.
 
 ---
 
-#### Campaign Acceptance by RFM Segment
+### Campaign Acceptance by RFM Segment  
 
-The chart below compares the **average campaign acceptance rate across RFM segments**:
+| Segment              | Acceptance Rate (%) |
+|----------------------|----------------------|
+| Champions            | ~12.5                |
+| At Risk              | ~9.0                 |
+| Loyal Customers      | ~8.0                 |
+| Others (Cold/Lost)   | 1–3                  |
 
-- **Champions** are the most responsive (~12.5%), as expected given their high recency, frequency, and spending.  
-- **At Risk customers** show a surprisingly strong acceptance rate (~9%), outperforming even **Loyal Customers** (~8%).  
-- **Loyal Customers** purchase frequently but do not rely as heavily on campaigns, which may explain their lower responsiveness.  
-- **Potential Loyalists, Cold, and Lost customers** show very limited responsiveness (1–3%), indicating diminishing returns from campaign targeting.  
-
-**Key Insight:**  
-At Risk customers are **highly reactive to campaigns**, almost as much as Champions. This suggests a major opportunity for **reactivation strategies** — targeted offers or personalized outreach could prevent churn and restore them to higher-value segments.  
-In contrast, **Loyal Customers may not require heavy campaign targeting**, as they continue engaging without incentives.  
+**Insight:**  
+- **At Risk customers are highly responsive**, second only to Champions.  
+- Strong case for **re-engagement campaigns** targeted at this group.
 
 ![acceptance_rate_by_segment](images/arcs.png)  
 
+---
+
+## Key Insight: Campaign Susceptibility of At-Risk Clients
+
+At Risk customers show a **surprisingly high response** to marketing campaigns — nearly as strong as Champions.
+
+> With well-timed, targeted campaigns, these customers could be reactivated before churn, improving retention at low cost.
+
+![campaig_acceptance_rate_vs_cust_segment](images/campaig_acceptance_rate_vs_cust_segment.png)
+
+---
+
+## Demographic Insight: At-Risk Clients Have Fewer Young Children
+
+At Risk clients tend to have **fewer small children**, are **more likely to have teens**, or **no children at all**.
+
+This suggests they may be more receptive to **convenience- and self-focused offers**, rather than family-centric messaging.
+
+![num_children_atrisk_clients](images/num_children_atrisk_clients.png)
+
+---
+
 ### Predicting Customer Complaints  
 
-To understand which factors are most associated with customers filing complaints, we trained a Random Forest model using **Had_Complaint** as the target variable.  
+A Random Forest model identified the top features associated with complaints.
 
 ![Top 15 Feature Importances — Predicting Complaints](images/complaints_feature_importance.png)  
 
 **Key Insights:**  
-- **Tenure matters**: Long-term customers complain more, likely due to higher expectations.  
-- **Affluent segments**: Older, higher-income, and luxury buyers (gold, wine, meat) are more complaint-prone.  
-- **Engagement links**: Higher AOV, recent shopping activity, and omnichannel patterns (store, web) connect with complaint behavior.  
+- Complaints come mostly from **high-income, long-tenure customers**.  
+- These are **valuable clients** with high expectations.  
 
-**Business Interpretation & Implications:**  
-- Complaints are concentrated among **the most valuable customers** — affluent, long-tenure, premium buyers.  
-- This makes complaint resolution not just a service function but a **strategic retention lever**.  
-
-**Actionable Steps:**  
-- Strengthen support and quality control for premium buyers.  
-- Monitor satisfaction among high-value households with proactive check-ins.  
-- Develop a **VIP service program** to protect long-term relationships and prevent churn among these critical customers.  
+**Implication:**  
+- Handling complaints well is a **retention strategy**, especially for top-tier customers.
 
 ---
 
 ### Overall Business Takeaway
-- Campaigns work best when **income, premium product focus, and digital/catalog engagement** align.  
-- **Wine and catalog** are not just revenue streams but **strategic levers for marketing ROI**.  
-- Protecting relationships with **affluent, high-value customers** through proactive complaint handling is as important as campaign design.  
+
+- Campaigns succeed when targeting **affluent, premium, digital customers**.  
+- **Wine and catalog engagement** are strong ROI levers.  
+- **At Risk clients** can be reactivated with tailored campaigns.  
+- **Complaint resolution** is crucial for retaining **high-value, long-term clients**.
 
 ## Methodology
 
@@ -282,7 +278,9 @@ This project followed a structured analytics workflow, moving from raw data expl
 
 - **RFM Segmentation:**  
   - Applied Recency, Frequency, Monetary scoring using quintiles (1–5).  
-  - Created six actionable customer segments: Champions, Loyal, Potential Loyalists, At Risk, Cold, and Lost.  
+  - Created six actionable customer segments: Champions, Loyal, Potential Loyalists, At Risk, Cold, and Lost.
+ 
+![3d_categories_plot](images/3d_categories_plot.png)
 
 - **Additional Features:**  
   - Calculated Average Order Value (AOV).  
