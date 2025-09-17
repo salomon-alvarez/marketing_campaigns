@@ -64,14 +64,14 @@ This section combines the analytical results with their business implications, p
 #### Average Age of Respondents by Campaign  
 The table below shows the average customer age for each campaign among those who **accepted** the offer, alongside the overall customer average for comparison:
 
-| Group               | Average Age (years) |
-|---------------------|----------------------|
-| Overall Customers   | 51.1 |
-| Campaign 1          | 51.6 |
-| Campaign 2          | 51.9 |
-| Campaign 3          | 48.6 |
-| Campaign 4          | 54.0 |
-| Campaign 5          | 50.3 |
+|       Group        | Average Age (years) |
+|:------------------:|:-------------------:|
+| Overall Customers  |        51.1         |
+| Campaign 1         |        51.6         |
+| Campaign 2         |        51.9         |
+| Campaign 3         |        48.6         |
+| Campaign 4         |        54.0         |
+| Campaign 5         |        50.3         |
 
 **Insights:**  
 - The customer base averages around **51.1 years old**.  
@@ -97,13 +97,13 @@ The table below shows the average customer age for each campaign among those who
 ### Campaign Performance  
 
 #### Conversion Rates  
-| Campaign   | Conversion Rate (%) |
-|------------|----------------------|
-| Campaign 4 | 7.45                 |
-| Campaign 3 | 7.41                 |
-| Campaign 5 | 7.32                 |
-| Campaign 1 | 6.45                 |
-| Campaign 2 | 1.36                 |
+|   Campaign   | Conversion Rate (%) |
+|:------------:|:-------------------:|
+| Campaign 4   |        7.45         |
+| Campaign 3   |        7.41         |
+| Campaign 5   |        7.32         |
+| Campaign 1   |        6.45         |
+| Campaign 2   |        1.36         |
 
 **Key Insights:**  
 - Campaigns 4, 3, and 5 performed best.  
@@ -115,11 +115,11 @@ The table below shows the average customer age for each campaign among those who
 - Reassess Campaign 2 completely (offer, message, targeting).
 
 #### Re-Engagement  
-| Time Window | Re-Engagement Rate (%) |
-|-------------|-------------------------|
-| 30 days     | 32.3                    |
-| 60 days     | 61.6                    |
-| 90 days     | 91.2                    |
+|  Time Window  | Re-Engagement Rate (%) |
+|:-------------:|:----------------------:|
+|    30 days    |         32.3           |
+|    60 days    |         61.6           |
+|    90 days    |         91.2           |
 
 **Insights:**  
 - One-third of users returned within 30 days.  
