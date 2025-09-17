@@ -164,21 +164,13 @@ Reaffirmed the same trends:
 | Loyal Customers      | ~8.0                 |
 | Others (Cold/Lost)   | 1–3                  |
 
-**Insight:**  
-- **At Risk customers are highly responsive**, second only to Champions.  
-- Strong case for **re-engagement campaigns** targeted at this group.
-
-![acceptance_rate_by_segment](images/arcs.png)  
-
----
+![campaig_acceptance_rate_vs_cust_segment](images/campaig_acceptance_rate_vs_cust_segment.png)
 
 ## Key Insight: Campaign Susceptibility of At-Risk Clients
 
 At Risk customers show a **surprisingly high response** to marketing campaigns — nearly as strong as Champions.
 
 With well-timed, targeted campaigns, these customers could be reactivated before churn, improving retention at low cost.
-
-![campaig_acceptance_rate_vs_cust_segment](images/campaig_acceptance_rate_vs_cust_segment.png)
 
 ---
 
