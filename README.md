@@ -8,10 +8,14 @@
    - [General Purchase Behavior](#general-purchase-behavior)  
    - [Campaign Performance](#campaign-performance)  
    - [Modeling Campaign Responses](#modeling-campaign-responses)  
+   - [Campaign Acceptance by RFM Segment](#campaign-acceptance-by-rfm-segment)  
+   - [Key Insight: At-Risk Clients Respond to Campaigns](#key-insight-campaign-susceptibility-of-at-risk-clients)  
+   - [Demographic Insight: At-Risk Clients Have Fewer Children](#demographic-insight-at-risk-clients-have-fewer-young-children)  
    - [Predicting Customer Complaints](#predicting-customer-complaints)  
+   - [Overall Business Takeaway](#overall-business-takeaway)  
 4. [Methodology](#methodology)  
 5. [Skills Demonstrated](#skills-demonstrated)  
-6. [Limitations & Next Steps](#limitations--next-steps)  
+6. [Limitations & Next Steps](#limitations--next-steps)    
 
 ---
 
