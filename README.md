@@ -176,7 +176,7 @@ Reaffirmed the same trends:
 
 At Risk customers show a **surprisingly high response** to marketing campaigns — nearly as strong as Champions.
 
-> With well-timed, targeted campaigns, these customers could be reactivated before churn, improving retention at low cost.
+With well-timed, targeted campaigns, these customers could be reactivated before churn, improving retention at low cost.
 
 ![campaig_acceptance_rate_vs_cust_segment](images/campaig_acceptance_rate_vs_cust_segment.png)
 
